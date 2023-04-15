@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Grayhat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="details_fragment">Details Fragment</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="apple_watch">Apple watch</string>
+    <string name="no_items_in_server">No Items in Server</string>
+    <string name="what_is_a_case_study_a_case_study_is_a_research_approach_that_is_used_to_generate_an_in_depth_multi_faceted_understanding_of_a_complex_issue_in_its_real_life_context_it_is_an_established_research_design_that_is_used_extensively_in_a_wide_variety_of_disciplines">What is a case study? A case study is a research approach that is used to generate an in-depth, multi-faceted understanding of a complex issue in its real-life context. It is an established research design that is used extensively in a wide variety of disciplines</string>
+</resources>

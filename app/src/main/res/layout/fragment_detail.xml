@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.DetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_Display"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/baseline_search_24" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="20sp">
+
+            <TextView
+                android:id="@+id/tv_NameCat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apple Series 1"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="$2100"
+                android:textColor="#5534A5"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:text="(with solo app)" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:text="Colors"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/a_button"
+                android:layout_width="wrap_content"
+                android:backgroundTint="@color/white"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:textColor="#BAAAAA"
+                android:elevation="5dp"
+                android:drawableLeft="@drawable/baseline_circle_chalk"
+                android:text="Chalk Pink" />
+            <Button
+                android:id="@+id/b_button"
+                android:layout_width="wrap_content"
+                android:backgroundTint="@color/white"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:textColor="#BAAAAA"
+                android:elevation="5dp"
+                android:drawableLeft="@drawable/baseline_dark_24"
+                android:text="Dark Order" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail"
+            android:textSize="20sp"
+            android:layout_margin="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/what_is_a_case_study_a_case_study_is_a_research_approach_that_is_used_to_generate_an_in_depth_multi_faceted_understanding_of_a_complex_issue_in_its_real_life_context_it_is_an_established_research_design_that_is_used_extensively_in_a_wide_variety_of_disciplines"/>
+        <Button
+            android:id="@+id/bAddtoCart"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Add to cart"
+            android:layout_margin="20dp"
+            android:background="@drawable/greenbuttons"/>
+
+    </LinearLayout>
+</ScrollView>
